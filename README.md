@@ -2,8 +2,8 @@
 A small note-taking application
 
 # Planned project sturcture
-Scripta/
-│── src/
+Scripta/\
+│── src/\
 │   ├── Scripta.Domain/         # Warstwa domeny (Core)
 │   │   ├── Entities/           # Encje (Note.cs)
 │   │   ├── ValueObjects/       # Obiekty wartościowe (opcjonalnie)
@@ -36,3 +36,5 @@ Scripta/
 │   ├── Scripta.Infrastructure.Tests/ # Testy infrastruktury
 │── README.md                  # Dokumentacja
 │── Scripta.sln                # Plik rozwiązania (.sln)
+
+
