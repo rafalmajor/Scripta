@@ -4,7 +4,7 @@ A small note-taking application
 # Planned project sturcture
 Scripta/\
 │── src/\
-│   ├── Scripta.Domain/         # Warstwa domeny (Core)\
+│   ├── Scripta.Domain/         (# Warstwa domeny (Core))\
 │   │   ├── Entities/           # Encje (Note.cs)\
 │   │   ├── ValueObjects/       # Obiekty wartościowe (opcjonalnie)\
 │   │   ├── Aggregates/         # Agregaty (opcjonalnie)\
