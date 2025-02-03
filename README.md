@@ -36,6 +36,6 @@ Scripta/\
 │   ├── Scripta.Application.Tests/                      # Testy aplikacji
 │   ├── Scripta.Infrastructure.Tests/                   # Testy infrastruktury
 │── README.md                                           # Dokumentacja
-│── Scripta.sln                                         # Plik rozwiązania (.sln
+│── Scripta.sln                                         # Plik rozwiązania (.sln)
 ```
 
