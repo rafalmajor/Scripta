@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripta.Domain", "scr\Scrip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripta.Tests", "test\Scripta.Tests\Scripta.Tests.csproj", "{26F89A65-0DF1-4234-86A8-AD489EF8DF38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripta.UI.WPF", "scr\Scripta.UI.WPF\Scripta.UI.WPF.csproj", "{9E6DDA63-40C0-49D3-BA8C-64D2C4750AAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{26F89A65-0DF1-4234-86A8-AD489EF8DF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26F89A65-0DF1-4234-86A8-AD489EF8DF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26F89A65-0DF1-4234-86A8-AD489EF8DF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6DDA63-40C0-49D3-BA8C-64D2C4750AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6DDA63-40C0-49D3-BA8C-64D2C4750AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6DDA63-40C0-49D3-BA8C-64D2C4750AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6DDA63-40C0-49D3-BA8C-64D2C4750AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
