@@ -12,4 +12,8 @@
       <ProjectReference Include="..\Scripta.Domain\Scripta.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    </ItemGroup>
+
 </Project>
