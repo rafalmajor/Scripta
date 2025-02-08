@@ -4,13 +4,19 @@ using System.Windows;
 
 namespace Scripta.UI.WPF;
 
-public class MainViewModel
+public partial class MainViewModel : ObservableObject
 {
-    public string Message { get; set; }
+    [ObservableProperty]
+    public string message;
 
     public MainViewModel()
     {
         Message = "Hello, World!";
     }
     
+    [RelayCommand]
+    private void ShowMessage()
+    {
+        MessageBox.Show(Message);
+    }
 }
