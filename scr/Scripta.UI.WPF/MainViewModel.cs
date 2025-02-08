@@ -7,7 +7,7 @@ namespace Scripta.UI.WPF;
 public partial class MainViewModel : ObservableObject
 {
     [ObservableProperty]
-    public string message;
+    private string _message;
 
     public MainViewModel()
     {
