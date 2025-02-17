@@ -8,7 +8,8 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock Text="{Binding Message}" FontSize="24" Margin="10"/>
+            <TextBox Text="{Binding Title, Mode=TwoWay}"/>
+            <TextBox Text="{Binding Description, Mode=TwoWay}"/>
             <Button Content="Show Message" Command="{Binding ShowMessageCommand}" Width="150" Height="30" Margin="10"/>
         </StackPanel>
     </Grid>
