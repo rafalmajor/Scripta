@@ -13,10 +13,7 @@ public partial class MainViewModel : ObservableObject
         Title = "Note 1",
         Content = "This is a note 1"
     };
-    
-    [ObservableProperty]
-    private string _message;
-    
+   
     [ObservableProperty]
     private string _title;
     
@@ -25,7 +22,6 @@ public partial class MainViewModel : ObservableObject
 
     public MainViewModel()
     {
-        Message = "Hello, World!";
         Title = _note.Title;
         Description = _note.Content;
     }
@@ -33,6 +29,6 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private void ShowMessage()
     {
-        MessageBox.Show(Message);
+        MessageBox.Show(_note.Title, _note.Content, MessageBoxButton.OK, MessageBoxImage.Information);
     }
 }
