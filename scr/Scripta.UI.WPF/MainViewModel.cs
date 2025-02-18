@@ -7,7 +7,7 @@ namespace Scripta.UI.WPF;
 
 public partial class MainViewModel : ObservableObject
 {
-    private Note _note = new Note
+    private readonly Note _note = new Note
     {
         Id = Guid.NewGuid(),
         Title = "Note 1",
