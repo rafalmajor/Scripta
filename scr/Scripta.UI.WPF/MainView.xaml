@@ -8,12 +8,13 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBox Text="{Binding Title, Mode=TwoWay}" Grid.Row="0"/>
-        <TextBox Text="{Binding Description, Mode=TwoWay}" Grid.Row="1"/>
-        <Button Content="Show Message" Command="{Binding ShowMessageCommand}" Width="150" Height="30" Margin="10" Grid.Row="2"/>
+        <TextBox Text="{Binding Title, Mode=TwoWay}" Grid.Row="1"/>
+        <TextBox Text="{Binding Description, Mode=TwoWay}" Grid.Row="2"/>
+        <Button Content="Show Message" Command="{Binding ShowMessageCommand}" Width="150" Height="30" Margin="10" Grid.Row="3"/>
     </Grid>
 </UserControl>
