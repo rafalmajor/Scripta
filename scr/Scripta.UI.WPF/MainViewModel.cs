@@ -23,12 +23,12 @@ public partial class MainViewModel : ObservableObject
 
     [ObservableProperty]
     private ObservableCollection<Note> _notes;
+    
+    [ObservableProperty]
+    private Note _selectedNote;
 
     public MainViewModel()
     {
-        Title = _note.Title;
-        Description = _note.Content;
-
         // Initialize the notes collection
         Notes = new ObservableCollection<Note>
         {
@@ -41,6 +41,6 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     private void ShowMessage()
     {
-        MessageBox.Show(_note.Title, _note.Content, MessageBoxButton.OK, MessageBoxImage.Information);
+        Notes.Add(_note);
     }
 }
