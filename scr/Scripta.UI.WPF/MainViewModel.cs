@@ -39,8 +39,8 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    private void ShowMessage()
+    private void Add()
     {
-        Notes.Add(_note);
+        Notes.Add(SelectedNote);
     }
 }
