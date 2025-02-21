@@ -43,4 +43,10 @@ public partial class MainViewModel : ObservableObject
     {
         Notes.Add(SelectedNote);
     }
+
+    [RelayCommand]
+    private void Remove()
+    {
+        Notes.Remove(SelectedNote);
+    }
 }

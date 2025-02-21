@@ -20,6 +20,9 @@
         <ListBox ItemsSource="{Binding Notes}" SelectedItem="{Binding SelectedNote}" DisplayMemberPath="Title" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0"/>
         <TextBox Text="{Binding SelectedNote.Title, Mode=TwoWay}" Grid.Row="1" Grid.Column="1"/>
         <TextBox Text="{Binding SelectedNote.Content, Mode=TwoWay}" Grid.Row="2" Grid.Column="1"/>
-        <Button Content="Add" Command="{Binding AddCommand}" Width="150" Height="30" Margin="10" Grid.Row="3" Grid.Column="1"/>
+        <StackPanel  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+            <Button Content="Add" Command="{Binding AddCommand}" Width="150" Height="30" Margin="10"/>
+            <Button Content="Remove" Command="{Binding RemoveCommand}" Width="150" Height="30" Margin="10"/>            
+        </StackPanel>
     </Grid>
 </UserControl>
