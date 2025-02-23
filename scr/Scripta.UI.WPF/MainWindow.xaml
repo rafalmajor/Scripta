@@ -4,13 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:wpf="clr-namespace:Scripta.UI.WPF"
-        xmlns:local="clr-namespace:Scripta.UI.WPF"
         mc:Ignorable="d"
         Title="Scripta" Height="450" Width="800">
-    <Window.DataContext>
-        <wpf:MainViewModel />
-    </Window.DataContext>
-    <Grid>
         <wpf:MainView />
-    </Grid>
 </Window>
