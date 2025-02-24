@@ -8,19 +8,6 @@ namespace Scripta.UI.WPF;
 
 public partial class MainViewModel : ObservableObject
 {
-    private readonly Note _note = new Note
-    {
-        Id = Guid.NewGuid(),
-        Title = "Note 1",
-        Content = "This is a note 1"
-    };
-
-    [ObservableProperty]
-    private string _title;
-
-    [ObservableProperty]
-    private string _description;
-
     [ObservableProperty]
     private ObservableCollection<Note> _notes;
     
@@ -37,6 +24,8 @@ public partial class MainViewModel : ObservableObject
             new Note { Id = Guid.NewGuid(), Title = "Note 3", Content = "This is note 3" },
             new Note { Id = Guid.NewGuid(), Title = "Note 4", Content = "This is note 4" }
         };
+
+        SelectedNote = Notes.First();
     }
 
     [RelayCommand]
