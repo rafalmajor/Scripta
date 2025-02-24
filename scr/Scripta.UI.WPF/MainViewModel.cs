@@ -34,7 +34,8 @@ public partial class MainViewModel : ObservableObject
         {
             new Note { Id = Guid.NewGuid(), Title = "Note 1", Content = "This is note 1" },
             new Note { Id = Guid.NewGuid(), Title = "Note 2", Content = "This is note 2" },
-            new Note { Id = Guid.NewGuid(), Title = "Note 3", Content = "This is note 3" }
+            new Note { Id = Guid.NewGuid(), Title = "Note 3", Content = "This is note 3" },
+            new Note { Id = Guid.NewGuid(), Title = "Note 4", Content = "This is note 4" }
         };
     }
 
