@@ -1,5 +1,6 @@
 # Scripta
 A small note-taking application
+# Road map -> 
 
 # Planned project sturcture
 ```
