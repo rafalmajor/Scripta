@@ -12,13 +12,13 @@ public class NoteBasicUnitTest
         //act
         var note = new Note
         {
-            Title = null,
-            Content = null
+            Title = string.Empty,
+            Content = string.Empty
         };
         
         //assert
-        Assert.Null(note.Title);
-        Assert.Null(note.Content);
+        Assert.Equal(string.Empty, note.Title);
+        Assert.Equal(string.Empty, note.Content);
     }
 
     [Fact]
