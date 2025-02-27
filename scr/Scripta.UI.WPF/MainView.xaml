@@ -56,7 +56,7 @@
                     Content="Remove"
                     Margin="10"
                     />
-            <TextBlock Text="Test" />
+            <TextBlock Text="Test1" />
         </StackPanel>
     </Grid>
 </UserControl>
