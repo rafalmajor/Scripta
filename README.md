@@ -4,22 +4,22 @@ A small note-taking application
 # Scripta Roadmap 🚀
 
 ## Version 0.0
-[X] First DTO
-[X] Initial unit tests
-[X] UI as a WPF application
-[X] First pipeline setup
+- [X] First DTO
+- [X] Initial unit tests
+- [X] UI as a WPF application
+- [X] First pipeline setup
 
 ## Version 0.1
-[ ] Artifact building in the pipeline
-[ ] Build only release version
+- [ ] Artifact building in the pipeline
+- [ ] Build only release version
 
 ## Version 0.2
-[ ] Add some nice themes/skins
-[ ] Application icon
-[ ] A reasonable menu structure
+- [ ] Add some nice themes/skins
+- [ ] Application icon
+- [ ] A reasonable menu structure
 
 ## Version 0.3
-- Basic Markdown support
+- [ ] Basic Markdown support
 
 ---
 
