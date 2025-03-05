@@ -6,57 +6,68 @@
              xmlns:local="clr-namespace:Scripta.UI.WPF"
              mc:Ignorable="d"
              d:DesignHeight="300"
-             d:DesignWidth="300"
-             >
+             d:DesignWidth="300">
     <UserControl.DataContext>
         <local:MainViewModel />
     </UserControl.DataContext>
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="8*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="8*" />
-        </Grid.ColumnDefinitions>
-        <ListBox Grid.Column="0"
-                 Grid.Row="0"
-                 Grid.RowSpan="3"
-                 DisplayMemberPath="Title"
-                 ItemsSource="{Binding Notes}"
-                 SelectedItem="{Binding SelectedNote}"
-                 />
-        <TextBox Grid.Column="1"
-                 Grid.Row="1"
-                 Text="{Binding SelectedNote.Title,
-                                Mode=TwoWay}"
-                 />
-        <TextBox Grid.Column="1"
-                 Grid.Row="2"
-                 Text="{Binding SelectedNote.Content,
-                                Mode=TwoWay}"
-                 />
-        <StackPanel Grid.Column="0"
-                    Grid.ColumnSpan="2"
-                    Grid.Row="3"
-                    Orientation="Horizontal"
-                    >
-            <Button Height="30"
-                    Width="150"
-                    Command="{Binding AddCommand}"
-                    Content="Add"
-                    Margin="10"
-                    />
-            <Button Height="30"
-                    Width="150"
-                    Command="{Binding RemoveCommand}"
-                    Content="Remove"
-                    Margin="10"
-                    />
-            <TextBlock Text="Test" />
-        </StackPanel>
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New" />
+                <MenuItem Header="Open" />
+                <MenuItem Header="Save" />
+                <MenuItem Header="Exit" />
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Undo" />
+                <MenuItem Header="Redo" />
+                <MenuItem Header="Cut" />
+                <MenuItem Header="Copy" />
+                <MenuItem Header="Paste" />
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="About" />
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="8*" />
+            </Grid.ColumnDefinitions>
+            <ListBox Grid.Column="0"
+                     Grid.Row="0"
+                     Grid.RowSpan="3"
+                     DisplayMemberPath="Title"
+                     ItemsSource="{Binding Notes}"
+                     SelectedItem="{Binding SelectedNote}" />
+            <TextBox Grid.Column="1"
+                     Grid.Row="1"
+                     Text="{Binding SelectedNote.Title, Mode=TwoWay}" />
+            <TextBox Grid.Column="1"
+                     Grid.Row="2"
+                     Text="{Binding SelectedNote.Content, Mode=TwoWay}" />
+            <StackPanel Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                        Grid.Row="3"
+                        Orientation="Horizontal">
+                <Button Height="30"
+                        Width="150"
+                        Command="{Binding AddCommand}"
+                        Content="Add"
+                        Margin="10" />
+                <Button Height="30"
+                        Width="150"
+                        Command="{Binding RemoveCommand}"
+                        Content="Remove"
+                        Margin="10" />
+                <TextBlock Text="Test" />
+            </StackPanel>
+        </Grid>
+    </DockPanel>
 </UserControl>
