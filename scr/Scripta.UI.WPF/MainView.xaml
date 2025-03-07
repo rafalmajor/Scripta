@@ -11,7 +11,7 @@
         <local:MainViewModel />
     </UserControl.DataContext>
     <DockPanel>
-        <Menu DockPanel.Dock="Top">
+        <Menu DockPanel.Dock="Left" VerticalAlignment="Stretch">
             <MenuItem Header="File">
                 <MenuItem Header="New" />
                 <MenuItem Header="Open" />
@@ -66,6 +66,7 @@
                         Command="{Binding RemoveCommand}"
                         Content="Remove"
                         Margin="10" />
+                <TextBlock Text="Test" />
             </StackPanel>
         </Grid>
     </DockPanel>
