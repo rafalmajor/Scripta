@@ -1,6 +1,8 @@
 # Scripta
 A small note-taking application
 
+![Scripta Logo](scripta_logo.jpg)
+
 # Scripta Roadmap 🚀
 
 ## Version 0.0
@@ -26,9 +28,7 @@ A small note-taking application
 
 Stay tuned for further updates! 🎯
 
-
-
-# Planned project sturcture
+# Planned project structure
 ```
 Scripta/\
 │── src/\
