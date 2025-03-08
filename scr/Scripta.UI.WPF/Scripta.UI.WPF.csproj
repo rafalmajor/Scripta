@@ -6,6 +6,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
+        <ApplicationIcon>scripta_icon.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,13 +16,6 @@
     <ItemGroup>
       <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
       <PackageReference Include="Extended.Wpf.Toolkit" Version="4.7.25103.5738" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="Resources\scripta_icon.ico" />
-      <Resource Include="Resources\scripta_icon.ico">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Resource>
     </ItemGroup>
 
 </Project>
