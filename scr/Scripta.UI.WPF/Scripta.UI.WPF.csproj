@@ -17,4 +17,11 @@
       <PackageReference Include="Extended.Wpf.Toolkit" Version="4.7.25103.5738" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Resources\scripta_icon.ico" />
+      <Resource Include="Resources\scripta_icon.ico">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+
 </Project>
