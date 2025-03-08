@@ -10,10 +10,11 @@ A small note-taking application
 - [X] First pipeline setup
 
 ## Version 0.1
-- [ ] Artifact building in the pipeline
-- [ ] Build only release version
+- [X] Artifact building in the pipeline
+- [X] Build only release version
 
 ## Version 0.2
+- [ ] Add menu
 - [ ] Add some nice themes/skins
 - [ ] Application icon
 - [ ] A reasonable menu structure
