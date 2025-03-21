@@ -1,6 +1,8 @@
 # Scripta
 A small note-taking application
 
+![Scripta Logo](scripta_logo.jpg)
+
 # Scripta Roadmap 🚀
 
 ## Version 0.0
@@ -10,10 +12,11 @@ A small note-taking application
 - [X] First pipeline setup
 
 ## Version 0.1
-- [ ] Artifact building in the pipeline
-- [ ] Build only release version
+- [X] Artifact building in the pipeline
+- [X] Build only release version
 
 ## Version 0.2
+- [ ] Add menu
 - [ ] Add some nice themes/skins
 - [ ] Application icon
 - [ ] A reasonable menu structure
@@ -25,9 +28,7 @@ A small note-taking application
 
 Stay tuned for further updates! 🎯
 
-
-
-# Planned project sturcture
+# Planned project structure
 ```
 Scripta/\
 │── src/\
