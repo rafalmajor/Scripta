@@ -7,28 +7,22 @@
              mc:Ignorable="d"
              d:DesignHeight="300"
              d:DesignWidth="300">
+    <UserControl.Resources>
+        <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </UserControl.Resources>
     <UserControl.DataContext>
         <local:MainViewModel />
     </UserControl.DataContext>
     <DockPanel>
-        <Menu DockPanel.Dock="Left" VerticalAlignment="Stretch">
-            <MenuItem Header="File">
-                <MenuItem Header="New" />
-                <MenuItem Header="Open" />
-                <MenuItem Header="Save" />
-                <MenuItem Header="Exit" />
-            </MenuItem>
-            <MenuItem Header="Edit">
-                <MenuItem Header="Undo" />
-                <MenuItem Header="Redo" />
-                <MenuItem Header="Cut" />
-                <MenuItem Header="Copy" />
-                <MenuItem Header="Paste" />
-            </MenuItem>
-            <MenuItem Header="Help">
-                <MenuItem Header="About" />
-            </MenuItem>
-        </Menu>
+        <StackPanel DockPanel.Dock="Left" VerticalAlignment="Stretch">
+            <ToggleButton x:Name="PanelToggleButton" Content="☰" Width="30" Height="30" />
+            <StackPanel x:Name="OptionsPanel" Visibility="{Binding IsChecked, ElementName=PanelToggleButton, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <Button Content="Option 1" />
+                <Button Content="Option 2" />
+                <Button Content="Option 3" />
+                <Button Content="Option 4" />
+            </StackPanel>
+        </StackPanel>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
