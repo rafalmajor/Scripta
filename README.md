@@ -16,7 +16,7 @@ A small note-taking application
 - [X] Build only release version
 
 ## Version 0.2
-- [ ] Add menu
+- [X] Add menu
 - [ ] Add some nice themes/skins
 - [ ] Application icon
 - [ ] A reasonable menu structure
