@@ -25,7 +25,7 @@ A small note-taking application
 - [ ] Basic Markdown support
 
 ---
-UI ska
+UI Sketch -> https://www.figma.com/design/nrPf9dsCQsxluTPE1zPNrT/Scripta?node-id=0-1&t=ISXRyfvS1ylyxObf-1
 
 ---
 Stay tuned for further updates! 🎯
