@@ -18,14 +18,16 @@ A small note-taking application
 ## Version 0.2
 - [X] Add menu
 - [ ] Add some nice themes/skins
-- [ ] Application icon
+- [X] Application icon
 - [ ] A reasonable menu structure
 
 ## Version 0.3
 - [ ] Basic Markdown support
 
 ---
+UI ska
 
+---
 Stay tuned for further updates! 🎯
 
 # Planned project structure
