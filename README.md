@@ -24,10 +24,7 @@ A small note-taking application
 ## Version 0.3
 - [ ] Basic Markdown support
 
----
-UI Sketch -> https://www.figma.com/design/nrPf9dsCQsxluTPE1zPNrT/Scripta?node-id=0-1&t=ISXRyfvS1ylyxObf-1
 
----
 Stay tuned for further updates! 🎯
 
 # Planned project structure
