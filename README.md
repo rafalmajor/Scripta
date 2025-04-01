@@ -27,6 +27,9 @@ A small note-taking application
 
 Stay tuned for further updates! 🎯
 
+Scripta mock up:
+![Scripta Screenshot](Scripta.png)
+
 # Planned project structure
 ```
 Scripta/\
